@@ -1,4 +1,4 @@
- Classname; Count
+Classname; Count
 clazzfish.jdbc.AbstractStatistic;1
 clazzfish.jdbc.AbstractStatisticMBean;1
 clazzfish.jdbc.ConnectionMonitor;1
