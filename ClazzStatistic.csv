@@ -4116,7 +4116,7 @@ org.eclipse.jgit.internal.storage.file.LockFile$1;1
 org.eclipse.jgit.internal.storage.file.LooseObjects;1
 org.eclipse.jgit.internal.storage.file.ObjectDirectory;1
 org.eclipse.jgit.internal.storage.file.ObjectDirectory$AlternateHandle;1
-org.eclipse.jgit.internal.storage.file.ObjectDirectory$AlternateHandle$Id;0
+org.eclipse.jgit.internal.storage.file.ObjectDirectory$AlternateHandle$Id;1
 org.eclipse.jgit.internal.storage.file.ObjectDirectory$AlternateRepository;1
 org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter;1
 org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter$SHA1OutputStream;0
@@ -4201,9 +4201,9 @@ org.eclipse.jgit.internal.storage.file.SnapshottingRefDirectory$SnapshotRefDirec
 org.eclipse.jgit.internal.storage.file.SnapshottingRefDirectory$SupplierThrowsException;0
 org.eclipse.jgit.internal.storage.file.SnapshottingRefDirectory$TriConsumerThrowsException;0
 org.eclipse.jgit.internal.storage.file.UInt24Array;0
-org.eclipse.jgit.internal.storage.file.UnpackedObject;0
-org.eclipse.jgit.internal.storage.file.UnpackedObject$1;0
-org.eclipse.jgit.internal.storage.file.UnpackedObject$LargeObject;0
+org.eclipse.jgit.internal.storage.file.UnpackedObject;1
+org.eclipse.jgit.internal.storage.file.UnpackedObject$1;1
+org.eclipse.jgit.internal.storage.file.UnpackedObject$LargeObject;1
 org.eclipse.jgit.internal.storage.file.UnpackedObjectCache;1
 org.eclipse.jgit.internal.storage.file.UnpackedObjectCache$Table;1
 org.eclipse.jgit.internal.storage.file.WindowCache;1
