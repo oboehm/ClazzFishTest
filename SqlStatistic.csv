@@ -1,7 +1,7 @@
 Label; Unit; Total; Avg; Hits; Max; Min
-"SELECT * FROM accounts"; ms; 7.0; 3.5; 2; 6.0; 1.0
-"SELECT * FROM accounts WHERE name = ?"; ms; 5.599181000000001; 2.7995905000000003; 2; 5.224313; 0.374868
-"INSERT INTO accounts (balance, name) VALUES (0.00, ?)"; ms; 4.1971739999999995; 2.0985869999999998; 2; 3.794129; 0.403045
-"UPDATE accounts SET name = ? WHERE number = ?"; ms; 2.322139; 1.1610695; 2; 1.744873; 0.577266
-"SELECT balance, name FROM accounts where number = ?"; ms; 0.463287; 0.2316435; 2; 0.237059; 0.226228
-"CREATE TABLE accounts (number INTEGER IDENTITY PRIMARY KEY, balance DECIMAL(10,2), name VARCHAR(50))"; ms; 0.415264; 0.415264; 1; 0.415264; 0.415264
+"SELECT * FROM accounts WHERE name = ?"; ms; 12.393838; 3.0984595; 4; 6.325333; 0.374868
+"INSERT INTO accounts (balance, name) VALUES (0.00, ?)"; ms; 11.4627; 2.865675; 4; 6.898398; 0.367128
+"SELECT * FROM accounts"; ms; 7.536413; 2.5121376666666664; 3; 6.0; 0.536413
+"UPDATE accounts SET name = ? WHERE number = ?"; ms; 5.280358; 1.3200895; 4; 2.063105; 0.577266
+"SELECT balance, name FROM accounts where number = ?"; ms; 1.168112; 0.292028; 4; 0.409503; 0.226228
+"CREATE TABLE accounts (number INTEGER IDENTITY PRIMARY KEY, balance DECIMAL(10,2), name VARCHAR(50))"; ms; 0.930483; 0.4652415; 2; 0.515219; 0.415264
